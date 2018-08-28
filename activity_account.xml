@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/header"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FC9"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:text="ACCOUNTS"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+    <Button
+
+        android:id="@+id/wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        android:background="#FDF5E6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Wallet"
+        android:textSize="28sp" />
+
+    <Button
+
+        android:id="@+id/credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wallet"
+        android:background="#FDF5E6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Credit Card"
+        android:textSize="28sp" />
+
+    <Button
+
+        android:id="@+id/debit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/credit"
+        android:background="#FDF5E6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Debit Card"
+        android:textSize="28sp" />
+
+    <Button
+
+        android:id="@+id/net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/debit"
+        android:background="#FDF5E6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Net Banking"
+        android:textSize="28sp" />
+
+
+</RelativeLayout>
